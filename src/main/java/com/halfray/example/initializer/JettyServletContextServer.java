@@ -11,7 +11,10 @@ import com.halfray.example.config.AppConfig;
 public class JettyServletContextServer {
 	public static void main(String[] args) throws Exception {
 		AnnotationConfigWebApplicationContext applicationContext = new AnnotationConfigWebApplicationContext();
+		
 		applicationContext.register(AppConfig.class);
+		//or use 
+		//applicationContext.setConfigLocation("com.halfray.example.config");
 
 		final ServletHolder servletHolder = new ServletHolder(
 				new DispatcherServlet(applicationContext));
