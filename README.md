@@ -11,15 +11,19 @@ Requirements
 方法1
 -----------
 1. `mvn jetty:run`
+
 方法2
 -----------
 2.  `mvn clean install exec:exec`
+
 方法3
 -----------
 1. 通过jetty的 `org.eclipse.jetty.xml.XmlConfiguration` 执行jetty/jetty.xml文件
+
 方法4
 -----------
 1. 执行`com.halfray.example.initializer.JettyWebContextServer`类的`main`方法
+
 方法5
 -----------
 1. 执行`com.halfray.example.initializer.JettyServletContextServer`类的`main`方法
