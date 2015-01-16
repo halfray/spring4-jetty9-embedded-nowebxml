@@ -1,0 +1,14 @@
+.idea
+target
+*.iml
+
+/target/
+/logs/
+/.settings/
+/.classpath
+/.project
+/.metadata
+/spy.log
+.DS_Store
+.swp
+.swo
